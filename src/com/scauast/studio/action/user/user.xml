@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="user" namespace="/" extends="json-default">
+		<action name="Register_Update" class="com.scauast.studio.action.user.Register_Action">
+			<result type="redirect" name="success">/index.jsp</result>
+			<result type="redirect" name="error">/index.jsp?status=${status}</result>
+		</action>
+		<action name="user_Update" class="com.scauast.studio.action.user.Update_Action">
+			<result type="chain">user_Info.action</result>
+		</action>
+		<action name="user_*" class="com.scauast.studio.action.user.{1}_Action">
+			<result type="json">
+				<param name="noCache">true</param>
+				<param name="contentType">text/html</param>
+			</result>
+		</action>
+		<action name="register_*" class="com.scauast.studio.action.user.{1}_Register_Action">
+			<result type="json">
+				<param name="noCache">true</param>
+				<param name="contentType">text/html</param>
+			</result>
+		</action>
+	</package>
+</struts>

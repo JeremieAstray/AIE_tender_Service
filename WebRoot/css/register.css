@@ -1,0 +1,42 @@
+body{ border: 0; margin: 0; padding: 0; background-color: #83e414;}
+input{padding: 0px; margin: 0px;}
+
+.content{ width: 600px; height: 550px; background-color: #f7f6f2; border-radius: 8px; margin: 50px auto 20px; border: 1px solid #f7f6f2; box-shadow:3px 5px 6px rgba(0, 0, 0, 0.5); }
+
+.nextBtn{ float: right; width: 80%; height:  30px; line-height: 30px; background-color: #83e414; text-align: center; font-family: "Microsoft YaHei"; color: #fff; font-size: 13px; text-decoration: none; margin: 20px 50px;}
+.nextBtn:hover{ background-color: #4cff00;}
+
+h3{ color: #8fca1a; font-size: 16px; margin: 20px 40px 5px; font-family: "Microsoft YaHei";}
+h1{ color: #222; font-size: 22px; margin: 0px 40px; font-family: "Microsoft YaHei";}
+.line{ width: 90%; margin:0px auto; border-top: 2px solid #fdfcf8; }
+
+.menuText{ display: block; font-size: 15px; float: right; margin: 10px;  font-family: "Microsoft YaHei";}
+ul{list-style: none; margin: 10px 30px 10px 0px; float: right; padding: 0px;}
+ul li{  float: left; margin-right: 5px;}
+ul li a{ text-align: center; display: block;width: 22px; height: 22px; font-family: "Microsoft YaHei"; background-color: #e6e5df; border-radius: 10px; color: #fff;text-decoration: none;}
+.active{background-color: #83e414;}
+
+.showDiv{ margin: 60px auto 0px; width: 80%; height: 400px;}
+.Menu1 h4{color: #222; font-size: 18px; margin: 0px; font-family: "Microsoft YaHei";}
+.Menu1 p{color: #222; font-size: 14px; margin: 0px; font-family: "Microsoft YaHei";}
+.Menu1 input{ outline: none; float: right; width: 180px; position: relative; top: -50px;}
+.checkBtn{ float: right; width: 80px; height:  20px; line-height: 20px; position: relative; top: -50px; background-color: #83e414; margin-left: 10px; text-align: center; font-family: "Microsoft YaHei"; color: #fff; font-size: 13px; text-decoration: none;}
+.checkBtn:hover{ background-color: #4cff00;}
+.checkState{ clear: right; float: right; position: relative; top: -45px; font-size: 10px;}
+
+.Menu2 p{color: #222; font-size: 14px; margin: 10px 0px 20px; font-family: "Microsoft YaHei";}
+.Menu2 h4{color: #222; font-size: 16px; margin: 10px 0px;font-family: "Microsoft YaHei";}
+.Menu2 input{ clear: right; outline: none; float: right; width: 220px; position: relative; top: -32px;}
+
+.Menu3 p{ color: #222; font-size: 14px; margin: 0px 0px 20px; font-family: "Microsoft YaHei";}
+.Menu3 label { color: #222; font-size: 16px; font-family: "Microsoft YaHei"; margin-right: 10px;}
+.Menu3 h4{ color: #222; font-size: 16px; margin: 15px 0px; font-family: "Microsoft YaHei";}
+.Menu3 .studioInput{ clear: right; outline: none; float: right; width: 220px; position: relative; top:-34px;}
+.Menu3 .introduceInput{width: 480px; height: 50px; outline: none;}
+
+.Menu4 h4{color: #222; font-size: 18px; margin: 0px; font-family: "Microsoft YaHei";}
+.Menu4 p{ color: #222; font-size: 14px; margin: 0px; font-family: "Microsoft YaHei";}
+#userPassword{ outline: none; float: right; width: 200px; position: relative; top: -34px;}
+#userCheckPassword{ outline: none; float: right; width: 200px; position: relative; top: -20px;}
+.submitBtn{ height: 30px; background-color: #83e414; width: 80%; margin: 30px auto; display: block; border: none; font-family: "Microsoft YaHei"; color: #fff;}
+.submitBtn:hover{ background-color: #87fd00;}

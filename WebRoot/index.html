@@ -1,13 +1,6 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="zh-cn">
 <head>
-<base href="<%=basePath%>">
 <meta charset="utf-8" />
     <title>Studio</title>
 	<meta http-equiv="pragma" content="no-cache">
@@ -35,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</form>
 	</div>
 	<a href="javascript:void(0)" id="tryBtn">游客进入(仅开放招投标查看功能)</a>
-	<a id="register" class="register" href="register.jsp">还没有加入？来注册一个</a>
+	<a id="register" class="register" href="register.html">还没有加入？来注册一个</a>
 
 	<div class="menu">
 		<h1>用户主菜单</h1>

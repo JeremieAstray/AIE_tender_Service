@@ -1,16 +1,6 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@page import="com.scauast.studio.dao.user.impl.User_DaoImpl"%>
-<%@page import="com.scauast.studio.dao.user.User_Dao"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-User_Dao UD = new User_DaoImpl();
-%>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="zh-cn">
 <head>
-<base href="<%=basePath%>">
 <meta charset="utf-8" />
 	<title>Studio Register</title>
 	<meta http-equiv="pragma" content="no-cache">
@@ -48,7 +38,7 @@ User_Dao UD = new User_DaoImpl();
 				<p>用户名须为英文或数字</p>
 				<a class="checkBtn" href="javascript:void(0)" id="checkUserId">CHECK</a>
 				<input type="text" placeholder="Customer ID" name="userId" />
-				<p id="checkStateUsername" class="checkState"></p><%-- <%=UD.checkName(name) %><%=UD.checkUsername(username) %> --%>
+				<p id="checkStateUsername" class="checkState"></p>
 
 				<br/>
 				<h4>昵称:</h4>

@@ -6,8 +6,8 @@
 <struts>
 	<package name="user" namespace="/" extends="json-default">
 		<action name="Register_Update" class="com.scauast.studio.action.user.Register_Action">
-			<result type="redirect" name="success">/index.jsp</result>
-			<result type="redirect" name="error">/index.jsp?status=${status}</result>
+			<result type="redirect" name="success">/index.html</result>
+			<result type="redirect" name="error">/index.html?status=${status}</result>
 		</action>
 		<action name="user_Update" class="com.scauast.studio.action.user.Update_Action">
 			<result type="chain">user_Info.action</result>

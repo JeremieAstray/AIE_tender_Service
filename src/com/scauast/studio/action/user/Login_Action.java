@@ -25,12 +25,16 @@ public class Login_Action extends ActionSupport implements SessionAware {
 	@Override
 	public String execute() throws Exception {
 		userid = userService.checkingUser(this);
+		
 		if(userid != -1){
 			session.put("userid", userid);
 			password = "ab63e87fec15bf3ae774d6f40b611b94";
 			loginstatus = "success";
 		}
-		loginstatus = "error";
+		else{ 
+			password = "ab63e87fec15bf3ae774d6f40b611b94";
+			loginstatus = "error";
+		}
 		return "success";
 	}
 	

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="studio_AIE">
+    <wb-module deploy-name="studio_AIE_OLD">
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="java-output-path" value="/studio_AIE/build/classes"/>
-        <property name="context-root" value="studio_AIE"/>
+        <property name="java-output-path" value="/studio_AIE_OLD/build/classes"/>
+        <property name="context-root" value="/studio_AIE_OLD"/>
     </wb-module>
 </project-modules>

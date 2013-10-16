@@ -5,7 +5,7 @@
 
 <struts>
 	<package name="user" namespace="/" extends="json-default">
-		<action name="Register_Update" class="com.scauast.studio.action.user.Register_Action">
+		<action name="Register_Action" class="com.scauast.studio.action.user.Register_Action">
 			<result type="redirect" name="success">/index.html</result>
 			<result type="redirect" name="error">/index.html?status=${status}</result>
 		</action>
